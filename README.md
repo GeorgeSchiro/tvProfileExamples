@@ -13,7 +13,7 @@ switches.
 This class is heavily used in every "GeorgeSchiro" project on GitHub. So those 
 projects serve as real-life examples as well.
 
-The tvProfile class is included within this solution of examples projects as a 
+The tvProfile class is included within this solution of example projects as a 
 CS file as well as a DLL file (ie. "tvToolbox.Net.dll"). Only the CS file 
 is actually referenced in these projects, but either can be used. The DLL is 
 included here to allow support for non-C# applications (eg. VB).
