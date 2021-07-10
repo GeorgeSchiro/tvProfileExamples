@@ -13,6 +13,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "e05_Parse_Many_Nested_Profi
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "e06_Get_Many_Values_From_A_Single_Key", "e06_Get_Many_Values_From_A_Single_Key\e06_Get_Many_Values_From_A_Single_Key.csproj", "{97D0AD37-3D68-4D93-BD58-960BEE77B5B7}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "e08_Get_Nth_Key_Or_Value_From_Profile", "e08_Get_Nth_Key_Or_Value_From_Profile\e08_Get_Nth_Key_Or_Value_From_Profile.csproj", "{AE700B82-C0AA-4053-9069-220BED077D5C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "e07_Get_More_From_Common_Key_Strings", "e07_Get_More_From_Common_Key_Strings\e07_Get_More_From_Common_Key_Strings.csproj", "{44014E95-F81B-46D2-B5DA-BCEF98DB2D21}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -43,6 +47,14 @@ Global
 		{97D0AD37-3D68-4D93-BD58-960BEE77B5B7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{97D0AD37-3D68-4D93-BD58-960BEE77B5B7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{97D0AD37-3D68-4D93-BD58-960BEE77B5B7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AE700B82-C0AA-4053-9069-220BED077D5C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AE700B82-C0AA-4053-9069-220BED077D5C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AE700B82-C0AA-4053-9069-220BED077D5C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AE700B82-C0AA-4053-9069-220BED077D5C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{44014E95-F81B-46D2-B5DA-BCEF98DB2D21}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{44014E95-F81B-46D2-B5DA-BCEF98DB2D21}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{44014E95-F81B-46D2-B5DA-BCEF98DB2D21}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{44014E95-F81B-46D2-B5DA-BCEF98DB2D21}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

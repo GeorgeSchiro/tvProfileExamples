@@ -34,6 +34,8 @@ Here is the list of example projects included:
 - e04_Key_Value_Pairs_To_Command_Line_String
 - e05_Parse_Many_Nested_Profiles
 - e06_Get_Many_Values_From_A_Single_Key
+- e07_Get_More_From_Common_Key_Strings
+- e08_Get_Nth_Key_Or_Value_From_Profile
 
 
 Requirements

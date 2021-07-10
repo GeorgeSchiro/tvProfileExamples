@@ -53,6 +53,8 @@ Here's how to display the entire command-line string (stacked):
             Console.Clear();
             Console.WriteLine(@"
 Here's -ChildProfile:
+
+Console.WriteLine(loProfile.oProfile(""-ChildProfile"").sCommandBlock());
 "
                     );
             Console.WriteLine(loProfile.oProfile("-ChildProfile").sCommandBlock());
@@ -62,6 +64,8 @@ Here's -ChildProfile:
             Console.Clear();
             Console.WriteLine(@"
 Here's -GrandChildProfile:
+
+Console.WriteLine(loProfile.oProfile(""-ChildProfile"").oProfile(""-GrandChildProfile"").sCommandBlock());
 "
                     );
             Console.WriteLine(loProfile.oProfile("-ChildProfile").oProfile("-GrandChildProfile").sCommandBlock());
@@ -71,6 +75,8 @@ Here's -GrandChildProfile:
             Console.Clear();
             Console.WriteLine(@"
 Here's -GreatGrandChildProfile:
+
+Console.WriteLine(loProfile.oProfile(""-ChildProfile"").oProfile(""-GrandChildProfile"").oProfile(""-GreatGrandChildProfile"").sCommandBlock());
 "
                     );
             Console.WriteLine(loProfile.oProfile("-ChildProfile").oProfile("-GrandChildProfile").oProfile("-GreatGrandChildProfile").sCommandBlock());

@@ -2,8 +2,8 @@
 
 if not %OldProject%.==. goto Start
 
-set     OldProject=e05_Parse_Many_Nested_Profiles
-set     NewProject=e06_Get_Many_Values_From_A_Single_Key
+set     OldProject=e07_Get_More_From_Shared_Key_Strings
+set     NewProject=e07_Get_More_From_Common_Key_Strings
 
 :Start
 if not exist %OldProject%\*.* goto EOF

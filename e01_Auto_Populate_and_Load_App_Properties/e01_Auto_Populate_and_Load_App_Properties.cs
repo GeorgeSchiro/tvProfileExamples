@@ -74,8 +74,10 @@ Here are the values currently in the profile:
     -String2=""{3}""
       -Date1=""{4}""
 
-Now edit the profile file and run this example again (to see how the new
-values in the profile file override the default values found in the code).
+Now edit the profile file (dismiss this screen first since you usually can't
+edit a profile file while its EXE is still running). Then run this example
+again. You will see how new values in the profile file override the default
+values found in the code.
 "
                     , lsString1, liInt1, loProfile.bValue("-Switch1", false)
                     , loProfile.sValue("-String2", "This is string 2.")
