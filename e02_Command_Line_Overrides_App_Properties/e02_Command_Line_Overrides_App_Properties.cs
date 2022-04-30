@@ -16,7 +16,6 @@ namespace tvProfileExamples
 -XML_Profile=False
 -SaveProfile=True
 -ShowProfile=False
--SaveSansCmdLine=False
 -String1=""This is string 1.""
 -Int1=123
 -Switch1=False
